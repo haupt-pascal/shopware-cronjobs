@@ -181,6 +181,7 @@ for script in "${INSTALLED_SCRIPTS[@]}"; do
     echo "- $script"
 done
 
+echo "========================================"
 echo ""
 echo "To add these scripts to your crontab:"
 echo "1. Run 'crontab -e'"
@@ -194,5 +195,13 @@ fi
 if [[ $SELECTED_JOBS == *"2"* ]]; then
     echo "5 3 * * * $CACHE_WARM > $CRONJOB_DIR/cache_warm_log.txt 2>&1"
 fi
-
+echo ""
 echo "========================================"
+
+echo "If you are using a UI to set up cronjobs, you can use the following script paths:"
+for script in "${INSTALLED_SCRIPTS[@]}"; do
+    echo "- $script"
+done
+echo ""
+echo "========================================"
+echo "Thank you for using the Shopware Cronjobs Setup script!"
