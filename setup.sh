@@ -169,6 +169,7 @@ if [ ${#INSTALLED_SCRIPTS[@]} -gt 0 ]; then
 fi
 
 # Additional cronjobs can be added here in the future
+clear
 
 echo ""
 echo "Setup completed!"
