@@ -19,13 +19,13 @@ A collection of useful cronjob scripts for Shopware 5 and 6.
 3. Follow the prompts to:
    - Configure your PHP path
    - Specify your Shopware installation path
-   - Select which cronjobs to install
+   - Select which cronjobs you want to install (you can pick individual scripts)
 
 4. Add the generated crontab entries to your system's crontab.
 
 ## Available Cronjobs
 
-### Cache Clear and Warm
+### Cache Management
 
 These scripts help you maintain optimal performance by regularly clearing and warming up the Shopware cache.
 
