@@ -56,11 +56,11 @@ The scripts automatically detect whether you're using Shopware 5 or Shopware 6 a
 
 - **Shopware 6:**
   - Cache clear: `cache:clear --env=prod`
-  - Cache warm: `http:cache:warm --env=prod`
+  - Cache warm: `cache:warmup --env=prod`
 
 - **Shopware 5:**
   - Cache clear: `sw:cache:clear`
-  - Cache warm: `sw:warm:http:cache`
+  - Cache warm: `sw:cache:warm`
 
 ## Contributing
 
